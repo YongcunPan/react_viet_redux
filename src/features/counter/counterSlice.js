@@ -12,7 +12,7 @@ const counterSlice = createSlice({
       state.value++;
     },
     handleAdd2(state, action) {
-      console.log(action);
+      // console.log(action);
       state.value += action.payload;
     },
   },
